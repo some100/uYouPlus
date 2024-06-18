@@ -377,7 +377,7 @@ static BOOL findCell(ASNodeController *nodeController, NSArray <NSString *> *ide
 // A/B flags
 %hook YTColdConfig 
 // YouRememberCaption: https://poomsmart.github.io/repo/depictions/youremembercaption.html
-- (BOOL)respectDeviceCaptionSetting { return NO; }
+- (BOOL)respectDeviceCaptionSetting { return YES; }
 // Swipe right to dismiss the right panel in fullscreen mode
 - (BOOL)isLandscapeEngagementPanelSwipeRightToDismissEnabled { return YES; }
 // Don't use new YT settings layout (Cairo Settings)
